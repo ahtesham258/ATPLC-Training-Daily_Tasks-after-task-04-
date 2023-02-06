@@ -1,0 +1,43 @@
+<!Doctype html> 
+<html> 
+
+<head> 
+<title> TASK-06 </title> 
+</head> 
+
+<body >
+<center> 
+<img src="aku.jpg">
+</center>
+ 
+
+<p> <b>  Aryabhatta Knowledge University (AKU Patna) is a collegiate public state university[1] located in Mithapur, Patna, Bihar, India. It was named after the Indian astronomer Aryabhatta.<br>
+
+
+Apart from a few notable exceptions, AKU has authority over technical education all over the state of Bihar, and it functions as the state technological university of Bihar. It is recognised and approved by AICTE. It is a statutory requirement for colleges offering any program in engineering, medical or technology in the state to be affiliated with the university. It also has four schools: <br>
+
+Centre for Geographical studies.<br>
+Centre for River studies.<br>
+Centre for Journalism and Mass Communication.<br>
+Patliputra School of Economics.<br> </p> 
+
+
+<style> 
+body{ 
+background-image: url("backgg.jpg");
+  background-repeat:no-repeat; 
+  background-size:1900px 95000px;
+  background-color:aqua;
+  }
+ 
+}
+p{ 
+font-decoration:underline;
+font-color:"blue"; 
+font-size: 24px; 
+ 
+} 
+</style> 
+</body> 
+</html> 
+
