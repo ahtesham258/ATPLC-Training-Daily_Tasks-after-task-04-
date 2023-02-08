@@ -1,6 +1,13 @@
 
 This is my ongoing ATPLC training's repository , in this repo tasks after task 04 are done...
 <br> 
-Task_05: for the Session of Feb 02nd, 23 <br> 
-Task_06: For the Session of Feb 03rd,23 <br>
-Task_07: For the session of Feb 06th, 23 <br>
+<b>
+Task-05: Session of Feb 02nd: Insertion of link <br> 
+
+Task 06: Session of feb 03rd: a mini project making web page more beautiful <br>
+
+Task-07: Session of feb 06th,23: use of <li> tags <br>
+
+Task-08: Session of Feb 07th,23: putting different bullets in <ul>    <br> 
+
+Task-09: Session of Feb 08th,23:  <br>
