@@ -1,0 +1,42 @@
+
+
+<!-- For the session of Feb 13th,23 -->  <b>
+
+<!-- Use of Form tag --> <b>   
+
+
+
+
+
+<!Doctype html> 
+<html> 
+
+<head> 
+
+<title> Task-13 </title> 
+
+<style> 
+body{
+background-image: url("backg13.jpg");
+background-size: 1500px 500px;
+} 
+</style> 
+
+</head> 
+
+<body> 
+
+<form>  <b>
+Enter your first name: <input type= "text" name= "firstname"> <br> <br> 
+Enter your last name  <input type= "text" name= "lastname">  <br> <br> 
+Enter your address: <textarea row="2" col="20" > </textarea>  <br> <br> 
+
+<label for= "password" > Password </label> 
+<input type="password" id="password" name="password" >
+</form> 
+
+</body> 
+
+
+
+</html> 
