@@ -1,0 +1,127 @@
+<!-- Task_10: For the session of Feb 09th, 23 --> 
+<!-- Use of division tags       --> 
+
+<!Doctype html> 
+<html> 
+<head>   
+
+
+<style>
+ 
+ul{ 
+margin:0;
+list-style-type: none;
+margin:0px; 
+padding:10px; 
+overflow:hidden; 
+background-color:aqua;
+position:fixed; 
+top:0; 
+width:100%;
+ }
+
+ 
+li { 
+float:left;
+margin-left:20%; 
+
+}
+
+
+li a{ 
+display:block;
+ 
+color: blue;
+text-align:center; 
+padding:14px 16px; 
+text-decoration:none;
+}
+
+li a:hover{ 
+background-color:red;
+} 
+
+
+.active {
+background-color:black;
+
+}
+
+.good{ 
+background-color:green;
+height:600px;
+width:1500px; 
+border-radius: 50px 50px; }
+
+.box { 
+text-align:center;
+background-color:red;
+height:200px;
+width:500px; 
+float:left; 
+border: 1px solid black;}
+
+.box1 { 
+text-align:center;
+background-color:pink;
+height 200px;
+width:500px;
+float:middle;
+border: 5px solid black;
+
+ }
+ 
+.box2 {
+text-align:center; 
+background-color:aqua; 
+height:200px;
+width:500px;
+border: 5px solid black;
+float:right; 
+margin-top: -5%;}
+
+
+
+
+</style>
+<title> Task-10 </title> 
+</head> 
+
+
+
+
+<body> 
+<ul> 
+<li> <a href="#"> Home </a> </li> 
+<li> <a href="#"> About </a> </li>
+<li> <a href="#"> Contact Us </a> </li> 
+</ul> 
+
+<marquee width="60%" direction="left" scrollamount="5" height="10px"> <p> Hii This is Ahtesham </p>  </marquee> 
+
+<div class="good"> 
+<h3> My Vlog</h3>  
+
+<div class="box"> 
+<h3> First Box </h3> 
+</div> 
+
+<div class="box1"> 
+<h3> Second Box </h3> 
+</div> 
+
+<div class="box2">
+<h3>Third Box </h3> 
+</div> 
+
+</div> 
+
+</body>
+
+
+
+
+
+
+ 
+</html> 
