@@ -1,0 +1,24 @@
+
+.box5{
+	display:flex;
+}
+.box55{
+	display:flex;
+}
+
+.box6, .box8, .box10, .box12, .box14, .box16, .box18,
+ .box20, .box22, .box24, .box26, .box28, .box30, .box32, .box34, .box36, .box38
+{
+background-color:brown;
+height:10px;
+width:900px;
+}
+
+
+.box7, .box9, .box11, .box13, .box15, .box17,
+ .box19, .box21, .box23, .box25, .box27, .box29, .box31, .box33, .box35, .box37, .box39
+{
+border:5px solid red;	
+height:100px;
+width:800px;
+}
