@@ -22,6 +22,6 @@ Task-13: Session of Feb 13th,23: use of Form tag <br>
 
 Task-14: Session of Feb 14th,23: Create a form using input tag <br> 
 
-Task-15: Session of Feb 15th,23: make a clone of sarkariresult.com <br> 
+Task-15: Session of Feb 15th,23: mini project-2:  make a clone of sarkariresult.com <br> 
 
-Task-16: mini project 2: make a mini project of your own choice
+Task-16: mini project-3 : make a mini project of your own choice
