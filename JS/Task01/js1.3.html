@@ -1,12 +1,12 @@
 <!-- Javascript Lecture --> 
-<!-- For the Session of Mar 03rd,23 --> 
+<!-- Till the Session of Mar 03rd,23 --> 
 <!-- Task:1.3--> 
 
 <!Doctype html> 
 <html> 
 
 <head> 
-<title> JS-Task_1.3 </title> 
+<title> JS-Task: 1.3 </title> 
 <head> 
 
 <body> 
@@ -14,31 +14,24 @@
 <h2> The Console.log method </h2> 
 <script>
 
-document.getElementById("myNumber").value = "16";
-int i, n;
 
-  // initialize first and second terms
-  int t1 = 0, t2 = 1;
+function fibonacci(num) {
+  let fibSeries = [];
+  fibSeries[0] = 0;
+  fibSeries[1] = 1;
 
-  // initialize the next term (3rd term)
-  int nextTerm = t1 + t2;
-
-  // get no. of terms from user
-  printf("Enter the number of terms: ");
-  scanf("%d", &n);
-
-  // print the first two terms t1 and t2
-  printf("Fibonacci Series: %d, %d, ", t1, t2);
-
-  // print 3rd to nth terms
-  for (i = 3; i <= n; ++i) {
-    printf("%d, ", nextTerm);
-    t1 = t2;
-    t2 = nextTerm;
-    nextTerm = t1 + t2;
+  for (let i = 2; i < num; i++) {
+    fibSeries[i] = fibSeries[i - 1] + fibSeries[i - 2];
   }
 
-console.log("Sum is:" +sum);
+  return fibSeries;
+}
+
+const num= prompt("Enter the number of terms in the Fibonacci series :");
+
+const fibSeries = fibonacci(num);
+
+console.log("Fibonacci series upto" +num+ "terms:" +fibSeries);
 
 </script> 
 </body> 
