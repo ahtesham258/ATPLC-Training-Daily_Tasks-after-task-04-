@@ -1,0 +1,30 @@
+<!-- Filters out Negative number--> 
+
+<!Doctype html> 
+
+<html> 
+
+<head> 
+<title> JS:T14.1 </title> 
+
+</head> 
+
+<body> 
+<script> 
+
+function filterNegativeNumbers(numbers) {
+  return numbers.filter(function(number) {
+    return number >= 0;
+  });
+}
+
+let numbers=prompt("Enter the number");
+const num= filterNegativeNumbers(numbers);
+console.log(num);
+
+</script>
+
+
+</body> 
+
+</html> 
