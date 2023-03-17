@@ -1,0 +1,30 @@
+<!-- Difference b/w a number & 13--> 
+
+<!Doctype html> 
+
+<html> 
+
+<head> 
+<title> JS:T14.2 </title> 
+
+</head> 
+
+<body> 
+<script> 
+
+function diffFrom13(num) {
+ if (num <= 13) {
+    return 13 - num;
+  } else {
+    return (num - 13) * 2;
+  }
+}
+
+let num= prompt("Enter a number");
+const diff = diffFrom13(num);
+
+ console.log(diff);
+</script> 
+</body> 
+
+</html>
