@@ -1,0 +1,44 @@
+<!-- Javascript Lecture --> 
+<!-- increase and decrease of font size of text on button click.--> 
+
+<!Doctype html> 
+<html> 
+
+<head> 
+<title> JS-T16.3 </title> 
+<head> 
+
+<body> 
+
+<h2> The Console.log method </h2> 
+<p id="myText">This is some text</p>
+
+<button id="increaseButton">Increase Font Size</button>
+<button id="decreaseButton">Decrease Font Size</button>
+
+
+<script> 
+
+
+
+const myText = document.getElementById("myText");
+const increaseButton = document.getElementById("increaseButton");
+const decreaseButton = document.getElementById("decreaseButton");
+let fontSize = 16; 
+
+increaseButton.addEventListener("click", () => {
+  fontSize += 2;
+  myText.style.fontSize = fontSize + "px";
+});
+
+decreaseButton.addEventListener("click", () => {
+  fontSize -= 2;
+  myText.style.fontSize = fontSize + "px";
+});
+</script> 
+
+
+</body> 
+
+
+</html>
