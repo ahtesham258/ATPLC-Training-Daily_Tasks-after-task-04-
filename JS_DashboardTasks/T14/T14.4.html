@@ -1,0 +1,28 @@
+<!-- Sum of Multiples of 3 & 5--> 
+
+<!Doctype html> 
+
+<html> 
+
+<head> 
+<title> JS:T14.4 </title> 
+
+</head> 
+<h2> Console.log method </h2>
+<body> 
+<script> 
+
+function sumMultiples() {
+  let sum = 0;
+  for (let i = 1; i < 1000; i++) {
+    if (i % 3 === 0 || i % 5 === 0) {
+      sum += i;
+    }
+  }
+  return sum;
+}
+
+console.log(sumMultiples()); 
+</script> 
+</body> 
+</html>
