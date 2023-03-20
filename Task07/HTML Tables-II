@@ -1,0 +1,196 @@
+<!-- Task:07 --> 
+
+<!Doctype html> 
+<html>
+<head> 
+<title> HTML Tables-II </title> 
+ <style> 
+ body{ 
+ font-color:blue ;
+ background-image: url("backg.jpg");
+  background-repeat:no-repeat; 
+  background-size:cover
+ 
+  }
+  table,th,tr,td{
+  border:5px solid orange;
+  border-collapse:collapse;
+  }
+  table{
+  margin-left:500px;
+  margin-top:100px;
+  }
+  th{
+  background-color:aqua;
+  margin:5px;
+  padding:5px;
+  font-size:20px;
+  }
+  
+  td{
+ 
+  background-color:black;
+  margin:10px;
+  padding:10px;
+  color:orange;
+  font-size:19px;
+  }
+  
+  .head{
+  font-size:30px;
+  font:weight:bold;
+  text-align: center;
+  background-color:aqua;
+  }
+</style> 
+
+<body>
+     
+       <table>
+	
+        <thead>
+            <tr>
+                <th class="head" colspan="5"> <b> Basic Information </b> </th>
+            </tr>
+            <tr>
+                <th> Name</th>
+                <th> Reg. No</th>
+                <th> Sem</th>
+                <th> CGPA</th>
+                <th> Branch</th>
+            </tr>
+        </thead>
+        <tbody>
+		
+            <tr>
+                <td rowspan="2">Mohd Ahtesham</td>
+				
+                <td rowspan="2"> 21105******</td>
+				 <td> 1st</td>
+                <td> 8.34</td>
+                <td rowspan="2"> CSE</td>
+                
+            </tr>
+              
+			   <tr> 
+			   <td> IInd </td> 
+			   <td> 7.82 </td> 
+			   </tr>
+			   
+			 
+
+            <tr>
+                <td rowspan="2">Sumant Kumar</td>
+                <td rowspan="2"> 21105******</td>
+                <td>1st</td>
+                <td> 8.95</td>
+                <td rowspan="2"> CSE</td>
+            </tr>
+			<tr> 
+			   <td> IInd </td> 
+			   <td> 8.34</td> 
+			   </tr>
+			   
+            <tr>
+                <td rowspan="2">Rajeev Kumar</td>
+                <td rowspan="2"> 21105******</td>
+                <td> 1st</td>
+                <td> 8.2</td>
+                <td rowspan="2"> CSE</td>
+            </tr>
+			<tr> 
+			   <td> IInd </td> 
+			   <td> 7.31 </td> 
+			   </tr>
+			   
+            <tr>
+                <td rowspan="2"> Md Harim </td>
+                <td  rowspan="2"> 21105******</td>
+                <td>1st</td>
+                <td> 8.2</td>
+                <td rowspan="2"> ME</td>
+            </tr>
+			<tr> 
+			   <td> IInd </td> 
+			   <td> 7.5 </td> 
+			   </tr>
+			   
+			   
+			   
+            <tr>
+                <td rowspan="2"> Shivam Kr Chaudhary </td>
+                <td rowspan="2"> 21105******</td>
+                <td>1st</td>
+                <td> 8.3</td>
+                <td rowspan="2"> CSE</td>
+            </tr>
+			
+			   <tr> 
+			   <td> IInd </td> 
+			   <td> 8.31 </td> 
+			   </tr>
+            <tr>
+                <td rowspan="2"> Nishat Alam </td>
+                <td rowspan="2"> 21105******</td>
+                <td>1st</td>
+                <td> 8.2</td>
+                <td  rowspan="2"> CE</td>
+            </tr>
+			
+			<tr> 
+			   <td> IInd </td> 
+			   <td> 7.42 </td> 
+			   </tr>
+			   
+            <tr>
+                <td rowspan="2"> Pranav Kumar </td>
+                <td rowspan="2"> 21105******</td>
+                <td>1st</td>
+                <td> 8.15</td>
+                <td rowspan="2" > ECE</td>
+            </tr>
+			<tr> 
+			   <td> IInd </td> 
+			   <td> 7.15 </td> 
+			   </tr>
+			  
+
+
+
+			  
+            <tr>
+                <td rowspan="2"> Bittu Kumar</td>
+                <td rowspan="2"> 21105******</td>
+                <td>1st</td>
+                <td> 8.41</td>
+                <td  rowspan="2"> CSE</td>
+            </tr>
+              <tr> 
+			   <td> IInd </td> 
+			   <td> 7.03 </td> 
+			   </tr>
+			   
+			<tr>
+                <td rowspan="2"> Abhisekh Kumar</td>
+                <td rowspan="2"> 21105******</td>
+                <td>1st</td>
+                <td> 8.12</td>
+                <td rowspan="2"> CSE</td>
+            </tr>
+			
+			<tr> 
+			   <td> IInd </td> 
+			   <td> 6.97 </td> 
+			   </tr>
+			   
+			
+			
+			
+        </tbody>
+    </table>
+	
+</body>
+
+ 
+
+</html> 
