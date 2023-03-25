@@ -1,0 +1,40 @@
+<!-- Javascript Lecture --> 
+
+<!Doctype html> 
+<html> 
+
+<head> 
+<title> JS-T17.3 </title> 
+<head> 
+
+<body> 
+<h3> Exception Handling </h3> 
+
+<script> 
+function accessArrayIndex(array,index)
+{
+if (index<0 || index>=array.length){
+throw new Error ("Out of bounds error");
+}
+
+return array[index];
+}
+
+const myArray=[1,2,3];
+
+try{
+const result= accessArrayIndex(myArray,3);
+console.log(result);
+}
+
+catch(error) 
+{ 
+console.log("Error:" , error.message);
+}
+
+
+</script>
+
+</body>
+
+</html>
