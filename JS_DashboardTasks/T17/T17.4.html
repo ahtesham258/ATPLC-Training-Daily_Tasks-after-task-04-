@@ -1,0 +1,38 @@
+<!-- Javascript Lecture --> 
+
+<!Doctype html> 
+<html> 
+
+<head> 
+<title> JS-T17.4 </title> 
+<head> 
+
+<body> 
+<h3> Exception Handling </h3> 
+
+<script> 
+function divide(dividend,divisor){
+
+try{
+if(divisor===0){
+throw new error ("Divide by Zero error");
+}
+
+return dividend/divisor;
+}
+
+catch(error){
+console.log("Error:", error.message);
+}
+
+finally{
+console.log("Division attempt completed");
+}
+
+}
+
+
+
+</script>
+</body>
+</html>
